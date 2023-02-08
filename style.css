@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+  
+    font-family: 'Open Sans', sans-serif;
+
+    background: #150b29;
+
+    min-height: 100vh;
+    color: #1F1534;
+  }
+  
+  .page {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 65px;
+    color: #1F1534;
+  }
+
+  ul {
+    display: flex;
+    gap: 48px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    margin-bottom: 125px;
+  }
+  
+  #logo {
+    width: 168px;
+    height: 23px;
+    left: 2px;
+    top: 0px;
+  }
+  
+  a {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+  ul li a {
+    opacity: 0.5;
+  }
+  
+  ul li a:hover {
+    font-weight: bold;
+    opacity: 1;
+  }
+  
+  h1, ul {
+    font-family: 'Mulish', sans-serif;
+  }
+  
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 55px;
+    
+  }
+
+   main, img {
+    gap:98px;
+    /* width: 380px; */
+  }
+  
+  h1 {
+    font-size: 30px;
+    line-height: 56px;
+    color: #00BFA6;
+  
+    font-weight: normal;
+    font-family: 'JetBrains Mono';;
+  
+    width: 580px;
+  }
+  
+  h1 span {
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: normal;
+    font-family: 'JetBrains Mono';
+  }
+
+  p strong span {
+   color: #00BFA6; 
+   font-family: 'Open Sans';
+font-style: bold;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+  }
+  
+  section p {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    text-align: center;
+    line-height: 28px;
+    color: #C2C2C2;
+
+    mix-blend-mode: normal;
+  
+    margin: 40px 0px;
+  }
+  
+  #line {
+    width: 568px;
+    height: 0;
+    border: 1px #00BFA6 solid;
+    margin: auto;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    
+    color: #FFFFFF;
+
+    font-size: 14px;
+    line-height: 28px; 
+  
+    text-align: center;
+  
+    margin-top: 40px;
+  }
+
+  footer a img {
+    justify-content: space-between;
+  }
+  
+  footer a {
+    font-weight: bold;
+  }
+
+  #balls {
+    position:fixed;
+    bottom: 0px;
+    left: 0px;
+    padding: 0 0 40px 10px;
+  }
+
